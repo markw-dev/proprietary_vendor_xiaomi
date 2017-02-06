@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/xiaomi/markw/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/xiaomi/markw/proprietary/bin/dpmd:system/bin/dpmd \
+    vendor/xiaomi/markw/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/xiaomi/markw/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/markw/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/xiaomi/markw/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
@@ -247,7 +248,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib64/libFlacSwDec.so:system/vendor/lib64/libFlacSwDec.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
@@ -285,6 +285,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmdtp_crypto.so:system/vendor/lib64/libmdtp_crypto.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmdtp.so:system/vendor/lib64/libmdtp.so \
+    vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-als.so:system/vendor/lib64/libmm-als.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-dspp-utils.so:system/vendor/lib64/libmm-dspp-utils.so \
     vendor/xiaomi/markw/proprietary/vendor/lib64/libmm-hdcpmgr.so:system/vendor/lib64/libmm-hdcpmgr.so \
@@ -1183,7 +1184,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
@@ -1216,8 +1216,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
